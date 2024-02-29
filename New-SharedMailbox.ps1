@@ -19,7 +19,7 @@ function global:New-SharedMailbox {
     $NewGroupMembers = @()
 
     While (!$Name){
-        Write-Host "Name can not be empty, enter the name" -ForegroundColor Red
+        Write-Host "Name can not be empty, enter the name bellow" -ForegroundColor Red
         $Name=Read-Host
     }
 
